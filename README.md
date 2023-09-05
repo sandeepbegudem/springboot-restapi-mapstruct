@@ -9,11 +9,8 @@
 
 
 ### Traveller:  GET Call using Postman
-![GET_Call.png](img.png)
-![console_Messages.png](img_1.png)
-
-
-
+![GET_Call.png](screenshots%2FGET_Call.png)
+![Console_Messages.png](screenshots%2FConsole_Messages.png)
 
 # Libraries:
 
