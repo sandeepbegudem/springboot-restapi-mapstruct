@@ -1,0 +1,13 @@
+server:
+  port: 5473
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/national_parks
+    username: root
+    password: bs@nDip1
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
