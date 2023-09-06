@@ -15,13 +15,16 @@
 ### POST Call using Postman:
 ![post_call.png](screenshots%2Fpost_call.png)
 
-### console messages:
+### Console Messages:
 ![console.png](screenshots%2Fconsole.png)
+
+### Record Count in MySql DB:
+![record_count_mysql.png](screenshots%2Frecord_count_mysql.png)
 
 ### Traveller:  GET Call using Postman
 ![GET_Call.png](screenshots%2FGET_Call.png)
 
-### console messages:
+### Console Messages:
 ![Console_Messages.png](screenshots%2FConsole_Messages.png)
 
 # Libraries:
@@ -35,7 +38,7 @@
 
 # Auto-Generate the classes into target folder using map struct and maven
 
- ###   steps:
+ ###   Steps:
 ###        1. select  compile from the Maven life cycle
 ###        2. go to the target folder > generated-sources
 
