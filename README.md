@@ -42,6 +42,3 @@
 ###        1. select  compile from the Maven life cycle
 ###        2. go to the target folder > generated-sources
 
-
-
-

@@ -17,5 +17,4 @@ public interface NationalParkMapper {
 
     List<NationalParkDTO> allNationalParksToDto(List<NationalPark> parks);
 
-
 }

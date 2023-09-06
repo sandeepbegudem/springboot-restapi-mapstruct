@@ -25,14 +25,11 @@ public class TravellerService {
 
     Logger logger = LoggerFactory.getLogger(TravellerService.class);
 
-
     public TravellerDTO modelToDto(Traveller traveller) {
         if ( traveller == null ) {
             return null;
         }
-
         TravellerDTO travellerDTO = new TravellerDTO();
-
         travellerDTO.setId(traveller.getId());
         travellerDTO.setName(traveller.getName());
         travellerDTO.setAge( traveller.getAge());
@@ -41,7 +38,6 @@ public class TravellerService {
 
         return travellerDTO;
     }
-
 
     @Async
     public CompletableFuture<List<TravellerDTO>> getAllTravellers(){
@@ -53,9 +49,6 @@ public class TravellerService {
 
         return CompletableFuture.completedFuture(collect);
     }
-
-
-
 
     @Async
     public CompletableFuture<List<Traveller>> saveTraveller(MultipartFile file) throws Exception {
