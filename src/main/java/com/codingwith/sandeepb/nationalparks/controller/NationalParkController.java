@@ -22,7 +22,7 @@ public class NationalParkController {
     @Autowired
     private NationalParkRepository repository;
 
-    @GetMapping("/all")
+    @GetMapping("/all-parks")
     public ResponseEntity<List<NationalParkDTO>> allNationalParks(){
         return new ResponseEntity<>(mapper.allNationalParksToDto(repository.findAll()), HttpStatus.OK);
     }
